@@ -11,24 +11,38 @@
 </head>
 <body>
 
-    <nav id="mobile-nav-bar">
-        <a href="#">Home</a>
-        <a href="">About Us</a>
-        <a href="">Our Products</a>
-        <a href="">Testemonials</a>
-        <a href="">Contact Us</a>
-    </nav>
+ <!-- Navigation Bar -->
+
+ <section id="mobile-nav-bar">
+    <div id="nav-bar-content" class="overlay">
+
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div>&times;</div></a>
+
+        <div class="overlay-content">
+          <a href="#" onclick="closeNav()">Home</a>
+          <a href="#" onclick="closeNav()">About Us</a>
+          <a href="#" onclick="closeNav()">Our Products</a>
+          <a href="#" onclick="closeNav()">Testimonials</a>
+          <a href="#" onclick="closeNav()">Contact Us</a>
+        </div>
+    </div>
+
+        <div id="mobile-nav-bar-box">
+            <a href="#home-section"><div id="mobile-nav-logo"><img src="./assets/images/fallbackFormat/mobile-nav-logo.svg" alt="logo"></div></a>
+            <span onclick="openNav()" id="nav-bar-icon"><img src="./assets/images/fallbackFormat/mobile-hamburger-icon.svg" alt="nav-bar-icon" height="100%" width="100%"></span>
+        </div>
+    </section>
 
     <section id="carousel-section">
 
         <div class="main-carousel">
-            <div class="carousel-cell">
+            <div class="carousel-cell large-carousel-cell">
                 <img src="./assets/images/fallbackFormat/s1.jpg" alt="">
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell large-carousel-cell">
                 <img src="./assets/images/fallbackFormat/s2.jpg" alt="">
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell large-carousel-cell">
                 <img src="./assets/images/fallbackFormat/s3.jpg" alt="">
             </div>
         </div>
@@ -110,6 +124,34 @@
     <section id="partners-section">
 
         <h1 class="section-heading">Our Partners</h1>
+
+        <div class="mini-carousel-container">
+
+            <div class="main-carousel mini-carousel">
+
+                <div class="carousel-cell mini-carousel-cell">
+                    <img src="./assets/images/fallbackFormat/radisson-logo.jpg" alt="">
+                </div>
+
+                <div class="carousel-cell mini-carousel-cell">
+                    <img src="./assets/images/fallbackFormat/radisson-logo.jpg" alt="">
+                </div>
+
+                <div class="carousel-cell mini-carousel-cell">
+                    <img src="./assets/images/fallbackFormat/radisson-logo.jpg" alt="">
+                </div>
+
+                <div class="carousel-cell mini-carousel-cell">
+                    <img src="./assets/images/fallbackFormat/radisson-logo.jpg" alt="">
+                </div>
+
+                <div class="carousel-cell mini-carousel-cell">
+                    <img src="./assets/images/fallbackFormat/radisson-logo.jpg" alt="">
+                </div>
+            
+            </div>
+
+        </div>
 
     </section>
 
