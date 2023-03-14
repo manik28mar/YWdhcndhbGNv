@@ -145,8 +145,11 @@
     }
 
     .large-carousel-cell img {
-        max-height: 275px;
+        max-height: 95%;
+        max-width:95%;
         margin: 0 auto;
+        object-fit: contain;
+        object-position: center;
     }
 
     .mini-carousel-container{
